@@ -1,9 +1,20 @@
 import { AppProps } from 'next/app'
+import Head from 'next/head'
 
-import '../styles/globals.css'
+import GlobalStyles from 'styles/global'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+        <title>Client Boilerplate</title>
+      </Head>
+
+      <GlobalStyles />
+
+      <Component {...pageProps} />
+    </>
+  )
 }
 
-export default MyApp
+export default App
