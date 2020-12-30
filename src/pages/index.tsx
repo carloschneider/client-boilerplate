@@ -8,7 +8,7 @@ const HomePage = () => (
       <title>Home</title>
     </Head>
 
-    <Main />
+    <Main title="Hello world" />
   </div>
 )
 
