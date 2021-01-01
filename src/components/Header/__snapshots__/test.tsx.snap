@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render the component 1`] = `
+.c0 {
+  text-align: center;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Header
+  </h1>
+</div>
+`
